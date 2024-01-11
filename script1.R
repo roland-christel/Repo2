@@ -16,3 +16,8 @@ if(!require("patchwork")){install.packages("patchwork")}
 if(!require("mfx")){install.packages("mfx")}
 if(!require("aod")){install.packages("aod")}
 if(!require("ROSE")){install.packages("ROSE")}
+
+# Import Data
+
+data <- read_xlsx("GraftingData.xlsx", sheet = "descrip")
+names(data)
