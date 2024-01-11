@@ -28,9 +28,7 @@ names(data)
 data <-  data %>%
               mutate_at(c(1:4,6), as.factor)
 
-
-
-ws_graf <-  data %>% 
+ws_graf <-  data %>%
                  group_by(water_stress, grafting_success) %>%
                  summarise(N = n()) %>%
                  mutate(percent = N/(sum(N))) %>%
