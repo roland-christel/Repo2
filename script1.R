@@ -16,6 +16,7 @@ if(!require("patchwork")){install.packages("patchwork")}
 if(!require("mfx")){install.packages("mfx")}
 if(!require("aod")){install.packages("aod")}
 if(!require("ROSE")){install.packages("ROSE")}
+if(!require("ROS")){install.packages("ROSE")}
 
 # Import Data
 
